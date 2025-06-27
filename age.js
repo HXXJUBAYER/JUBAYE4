@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const baseApiUrl = "https://jubayer-birth-api20-raiwzrvum-jubayer-404-ghosts-projects.vercel.app";
+const jubayer = "https://raw.githubusercontent.com/HXXJUBAYER/JUBAYE4/refs/heads/main/baseApiUrl.json";
 
 module.exports.config = {
   name: "age",
@@ -32,7 +32,7 @@ onStart:async function({ api, event, args }) {
       );
     }
 
-    const apiUrl = `${baseApiUrl}/age?birth_date=${encodeURIComponent(date)}`;
+    const apiUrl = `${jubayer}/age?birth_date=${encodeURIComponent(date)}`;
 
     const res = await axios.get(apiUrl);
     const data = res.data;
