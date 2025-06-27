@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const jubayer = "https://jubayer-screenshort-apis-xy.onrender.com";
+const jubayer = "https://raw.githubusercontent.com/HXXJUBAYER/JUBAYE4/refs/heads/main/baseApiUrl.json";
 
 module.exports.config = {
   name: "webss",
