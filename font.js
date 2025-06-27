@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const API = "https://jubayer-font-api-07.vercel.app";
+const API = "https://raw.githubusercontent.com/HXXJUBAYER/JUBAYE4/refs/heads/main/baseApiUrl.json";
 
 module.exports.config = {
   name: "style",
