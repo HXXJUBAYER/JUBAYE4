@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const jubayer = "https://raw.githubusercontent.com/HXXJUBAYER/JUBAYE4/refs/heads/main/baseApiUrl.json";
+const jubayer = "https://raw.githubusercontent.com/HXXJUBAYER/JUBAYE4/main/baseApiUrl.json";
 
 module.exports.config = {
   name: "webss",
