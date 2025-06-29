@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const jubayer = "https://jubayer-githubsearch-apis.vercel.app";
+const jubayer = "https://raw.githubusercontent.com/HXXJUBAYER/JUBAYE4/main/baseApiUrl.json";
 
 module.exports = {
   config: {
