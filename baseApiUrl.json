@@ -4,5 +4,6 @@
   "screenshotApi": "https://jubayer-screenshort-apis-xy.onrender.com",
   "driveApi": "https://jubayer-drive-uploader-api-url.vercel.app",
   "anya": "https://jubayer-ai-apis.vercel.app/api/jubayer",
-  "gitSearch": "https://jubayer-githubsearch-apis.vercel.app"
+  "gitSearch": "https://jubayer-githubsearch-apis.vercel.app",
+  "flag-game": "https://jubayer-flag-apis.vercel.app"
 }
