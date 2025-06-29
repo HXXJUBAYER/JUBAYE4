@@ -51,9 +51,8 @@ module.exports = {
 
   onStart: async function ({ api, event }) {
     try {
-      const apiUrl = await baseApiUrl(); // 🔺 now using re.data.jubayer
+      const apiUrl = await baseApiUrl();
       const response = await axios.get(`${apiUrl}/api/flag`);
-
       const { link, country } = response.data;
 
       const imgStream = await axios({
