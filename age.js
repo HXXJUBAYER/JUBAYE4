@@ -33,7 +33,6 @@ module.exports = {
         );
       }
 
-      // Load base API URL
       const { data: baseData } = await axios.get(jubayerApiUrl);
       const apiUrl = `${baseData.jubayer}/age?birth_date=${encodeURIComponent(date)}`;
 
